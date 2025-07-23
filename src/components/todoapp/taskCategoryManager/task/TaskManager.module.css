@@ -82,3 +82,9 @@
 .inputWrapper:hover .editBtn {
   display: block;
 }
+.error {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: white;
+}

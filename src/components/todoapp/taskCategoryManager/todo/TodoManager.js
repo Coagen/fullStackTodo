@@ -59,7 +59,7 @@ function TodoManager() {
           onChange={(e) => setCategory(e.target.value)}
           className={styles.input}
         >
-          <option value={undefined}>Select Category</option>
+          <option value={undefined}>Select Task</option>
           {tasks.map((task) => (
             <option key={task.id} value={task.task_name}>
               {task.task_name}

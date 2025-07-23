@@ -63,7 +63,7 @@ export async function getTaskFromSupabase() {
     .from("user_task")
     .select("*")
     .eq("email", email)
-    .order("created_at", { ascending: false });
+    .order("created_at", { ascending: true });
 
   if (error) {
     console.error("Error fetching tasks:", error.message);
@@ -134,7 +134,7 @@ export async function getToDoFromSupabase() {
     .from("user_todo")
     .select("*")
     .eq("email", email)
-    .order("created_at", { ascending: false });
+    .order("created_at", { ascending: true });
 
   if (error) {
     console.error("Error fetching todos:", error.message);

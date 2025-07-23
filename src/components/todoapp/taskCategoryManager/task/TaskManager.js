@@ -54,20 +54,22 @@ function TaskManager() {
   return (
     <div className={styles.taskManager}>
       <form className={styles.taskForm} onSubmit={handleAdd}>
-        <div className={styles.inputContainer}>
-          <input
-            name="task"
-            className={styles.input}
-            type="text"
-            placeholder="Enter Your Task Category"
-            required
-            onFocus={(e) => (e.target.value = "")}
-          />
-          <button type="submit" className={styles.button}>
-            Add Category
-          </button>
+        <div>
+          <div className={styles.inputContainer}>
+            <input
+              name="task"
+              className={styles.input}
+              type="text"
+              placeholder="Enter Your Task Category"
+              required
+              onFocus={(e) => (e.target.value = "")}
+            />
+            <button type="submit" className={styles.button}>
+              Add Category
+            </button>
+          </div>
+          <p className={styles.error}>{error}</p>
         </div>
-        <p>{error}</p>
       </form>
 
       <div>

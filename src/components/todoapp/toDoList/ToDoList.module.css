@@ -1,0 +1,45 @@
+.todoDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.taskContainer {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 5px;
+}
+.task {
+  cursor: pointer;
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.8rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(125, 114, 141);
+  color: #fff;
+}
+.activeTask {
+  border: 2px solid #fff;
+}
+.todoContainer {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.todo {
+  display: flex;
+  gap: 10px;
+  font-size: 18px;
+}
+.userTodo {
+  font-size: 2rem;
+  color: #fff;
+}
+.checked {
+  text-decoration: line-through;
+  color: gray;
+}

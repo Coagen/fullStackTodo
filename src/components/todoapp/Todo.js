@@ -15,7 +15,7 @@ function Todo({ session }) {
     return (
       <div className={styles.todo}>
         <Header />
-        <p>You are not logged in.</p>;
+        <p className={styles.heading}>You are not logged in.</p>;
       </div>
     );
 

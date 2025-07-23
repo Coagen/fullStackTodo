@@ -16,7 +16,7 @@ export const useUserStore = create((set) => ({
 }));
 
 export const useUserMenu = create((set) => ({
-  userMenu: "toDoList",
+  userMenu: "taskManager",
   setMenu: (menu) => set(() => ({ userMenu: menu })),
 }));
 
@@ -82,3 +82,4 @@ export const useTaskStore = create((set) => ({
     return result;
   },
 }));
+// # NEXTAUTH_URL=http://localhost:3000/
