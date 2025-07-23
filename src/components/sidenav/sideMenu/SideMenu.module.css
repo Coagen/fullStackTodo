@@ -1,0 +1,21 @@
+.menuList {
+  width: 90%;
+  list-style: none;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.menuItem {
+  border-radius: 5px;
+  padding: 1rem 3rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  background-color: rgb(67, 51, 90);
+  color: #fff;
+  cursor: pointer;
+}
+.menuItem:hover {
+  background-color: rgba(67, 51, 90, 0.89);
+}

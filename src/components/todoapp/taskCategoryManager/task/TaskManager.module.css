@@ -1,0 +1,84 @@
+.taskManager {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.taskForm {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.inputContainer {
+  display: flex;
+  gap: 1rem;
+}
+.input {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 38%;
+}
+.button {
+  padding: 10px;
+  background-color: rgb(125, 114, 141);
+  color: white;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.button:hover {
+  background-color: rgba(125, 114, 141, 0.89);
+}
+.inputWrapper {
+  display: inline-block;
+  position: relative;
+  margin-right: 1rem;
+}
+.inputTask {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.3rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+
+  background-color: rgb(125, 114, 141);
+  color: white;
+}
+.clearBtn {
+  position: absolute;
+  left: 0.5rem;
+  top: 0%;
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: rgb(67, 51, 90);
+  cursor: pointer;
+  display: none;
+}
+
+.inputWrapper:hover .clearBtn {
+  display: block;
+}
+.editBtn {
+  position: absolute;
+  right: 0.5rem;
+  top: 0%;
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: rgb(67, 51, 90);
+  cursor: pointer;
+  display: none;
+}
+
+.inputWrapper:hover .editBtn {
+  display: block;
+}

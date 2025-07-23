@@ -1,0 +1,9 @@
+.todo {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+  background-color: rgb(67, 51, 90);
+}

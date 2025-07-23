@@ -1,0 +1,10 @@
+.logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-size: 4rem;
+  font-weight: 600;
+}
